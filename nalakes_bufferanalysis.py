@@ -1,3 +1,8 @@
+#Project setup
+import os
+folderPath=r'\\Mac\Home\Documents\GIS\nabiglakes'
+print os.listdir(folderPath)
+
 #1.) Run a geoprocessing tool in ArcMap
 import arcpy 
 from arcpy import env
